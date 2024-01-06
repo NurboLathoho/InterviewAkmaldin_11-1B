@@ -8,9 +8,12 @@
 # Напишите функцию find_word, которая принимает два аргумента: текст (строка) и слово (строка), и возвращает количество раз, которое это слово встречается в тексте. Учтите, что поиск должен быть нечувствителен к регистру. Например, find_word("Hello world, hello Python", "hello") должна возвращать 2.
 
 # 1
-a = [1, 2, 5, 2, 3, 1, 4, 5]
-c = set(a)
-print(c)
+def unique_numbers(input_list):
+    return list(dict.fromkeys(input_list))
+
+original_list = [1, 2, 5, 2, 3, 1, 4, 5]
+result = unique_numbers(original_list)
+print(result)
 
 
 # def convert_temperature(num, c):
