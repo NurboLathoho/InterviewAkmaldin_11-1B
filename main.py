@@ -10,7 +10,7 @@
 # 1
 a = [1, 2, 5, 2, 3, 1, 4, 5]
 c = set(a)
-print(c)
+print(list(c))
 
 
 # def convert_temperature(num, c):
